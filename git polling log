@@ -1,0 +1,15 @@
+#automatically pulled the code and build when a commit is done.
+Git Polling Log
+
+Started on 7 Apr, 2021 9:42:11 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 0e84d0836870d108ec62dc7ba5db0e0735e09aad (refs/remotes/origin/main)
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.17.1'
+ > git ls-remote -h -- https://github.com/salman-codebird/jenkins-maven.git # timeout=10
+Found 1 remote heads on https://github.com/salman-codebird/jenkins-maven.git
+[poll] Latest remote head revision on refs/heads/main is: 36e35522e57701593b932aac4ac69ab89dee0259
+Done. Took 0.93 sec
+Changes found
